@@ -43,6 +43,8 @@ Solutions for the .NET Early Engagement Program
 3. [RDBMS - DDL & DML - Hostel - Insert Student Records set2](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/02.%20RDBMS%20-%20DDL%20%26%20DML/02.%20Hostel-Insert%20Student%20Records%20set2.sql)
 4. [Function - Scalar & Aggregate - Minimum & Maximum Discount Amount](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/01.%20Minimum%20%26%20Maximum%20Discount%20Amount.sql)
 5. [Function & Subqueries - Patient Appointment details Based On Month](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/04.%20Function%20%26%20Subqueries/01.%20Patient%20Appointment%20details%20Based%20On%20Month.sql)
+6. [RDBMS - Select Statements - Movie Details based on Certification and Duration](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/01.%20RDBMS%20-%20Select%20Statements/2.%20Movie%20Details%20based%20on%20Certification%20and%20Duration.sql)
+7. [Function - Scalar & Aggregate - Student Details in Capital Case](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/02.%20Student%20Details%20in%20Capital%20Case.sql)
 
 ## DotNet User Interface Design and Soft Skills
 
