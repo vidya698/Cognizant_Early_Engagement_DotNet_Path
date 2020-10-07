@@ -53,3 +53,4 @@ Solutions for the .NET Early Engagement Program
 #### Hands-On
 
 1. [Simple Calculator](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Hands-On/HTML5%20%2B%20CSS3/01.%20Simple%20Calculator.html)
+2. [ACTB Connection Portal](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Hands-On/JavaScript/01.%20ACTB%20Connection%20Portl.html)
