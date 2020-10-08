@@ -1,0 +1,172 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: #CEF6CE;
+            }
+            
+            h1{
+                color: #08088A;
+                font-family: verdana;
+                text-align: center;
+            }
+            
+            table{
+                font-size: 15px;
+            }
+            
+            #costtable{
+                float: right;
+                font-size: 15px;
+                border-style: solid;
+                text-align: center;
+                border: 1px solid black;
+            }
+    
+        </style>
+        <script>
+            function costcalculation(){
+                var _weight = document.getElementById("kilogramval").value;
+                var taxPercentage=0,cost,res;
+                
+                var _type1 = document.getElementById("type1");
+                var _type2 = document.getElementById("type2");
+                var _type3 = document.getElementById("type3");
+                
+                var _catogory=document.getElementById("catogory").value;
+                
+                if(_catogory == "London - 1800") taxPercentage = 0.1;
+                else if(_catogory == "New York - 3100") taxPercentage = 0.15;
+                else if(_catogory == "Tokyo - 2800") taxPercentage = 0.2;
+
+                if(_weight>=5 && _weight<15){
+                    if(_type1.checked) cost = _weight*125;
+                    else if(_type2.checked) cost = _weight*175;
+                    else if(_type3.checked) cost = _weight*225;
+                }
+                else if(_weight>=15 && _weight<=25){
+                    if(_type1.checked) cost =_weight*175;
+                    else if(_type2.checked) cost = _weight*225;
+                    else if(_type3.checked) cost = _weight*375;
+                }
+                else if(_weight>25 && _weight<=36){
+                    if(_type1.checked) cost = _weight*200;
+                    else if(_type2.checked) cost = _weight*250;
+                    else if(_type3.checked) cost = _weight*400;
+                }
+                
+                res=cost + (cost * taxPercentage);
+                document.getElementById("result").innerHTML="Your shipment has been accepted. Amount to be paid is Rs."+ Math.ceil(res);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Air Cargo Service</h1>
+        <label>
+            <table>
+                <tr>
+                    <td>Customer Logistics Account Number</td>
+                    <td><input type="text" name="accnumber" id="accnumber" placeholder="Enter the Unique ID" pattern="([a-zA-Z]{4}[_]{1}[0-9]{3})" required></td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td><input type="text" name="mobile" pattern="[7-9]{1}[0-9]{9}" required="required" ></td>
+                </tr>
+                <tr>
+                    <td>Email-ID</td>
+                    <td><input type="text" name="emailid" required="required"></td>
+                </tr>
+                <tr>
+                    <td>Item to be Shipped</td>
+                    <td><input type="text" name="item" placeholder="Item Name" pattern="([^\s][a-zA-Z\s]+)" required="required"></td>
+                </tr>
+                <tr>
+                    <td>Item Category</td>
+                    <td><select name="itemtype" id="category" required="required">
+                        <option value="Electronics">Electronics</option>
+                        <option value="Attires">Attires</option>
+                        <option value="Toys">Toys</option>
+                        <option value="Non Poisonous Food">Non Poisonous Food</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Shipment Address</td>
+                    <td><textarea rows="4" cols="50" name="address" required="required"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td><select name="location" id="catogory" required="required">
+                        <option value="London - 1800">London - 1800</option>
+                        <option value="Singapore - 1400">Singapore - 1400</option>
+                        <option value="New York - 3100">New York - 3100</option>
+                        <option value="Mexico City - 3300">Mexico City - 3300</option>
+                        <option value="Tokyo - 2800">Tokyo - 2800</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Weight in kilograms</td>
+                    <td><input type="number" min="5" max="36" name="weight" id="kilogramval" required="required"></td>
+                </tr>
+                <tr>
+                    <td>Service Type</td>
+                    <td><input type="radio" name="servicetype" id="type1" value="Normal" required="required">Normal
+                    <input type="radio" name="servicetype" id="type2" value="Express">Express
+                    <input type="radio" name="servicetype" id="type3" value="Platinum">Platinum</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Book My Consignment" name="submit" onclick="costcalculation()"></td>
+                    <td><input type="reset" value="Clear" name="clear"></td>
+                </tr>
+            </table>
+        </label>
+        <div id="result" name="result"></div>
+        <table id="costtable">
+            <thead>Shipment Cost Chart</thead>
+            <tr>
+                <th>ServiceType</th>
+                <th>Weight(in kg)</th>
+                <th>Amount(per Kg)</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Normal</td>
+                <td>5 to below 15</td>
+                <td>125</td>
+            </tr>
+            <tr>
+                <td>15 to 25</td>
+                <td>175</td>
+            </tr>
+            <tr>
+                <td>Above 25 to 36</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Express</td>
+                <td>5 to below 15</td>
+                <td>175</td>
+            </tr>
+            <tr>
+                <td>15 to 25</td>
+                <td>225</td>
+            </tr>
+            <tr>
+                <td>Above 25 to 36</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Platinum</td>
+                <td>5 to below 15</td>
+                <td>225</td>
+            </tr>
+            <tr>
+                <td>15 to 25</td>
+                <td>375</td>
+            </tr>
+            <tr>
+                <td>Above 25 to 36</td>
+                <td>400</td>
+            </tr>
+        </table>
+    </body>
+</html>
