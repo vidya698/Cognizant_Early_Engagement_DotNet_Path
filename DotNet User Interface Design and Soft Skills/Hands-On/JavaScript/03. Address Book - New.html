@@ -1,0 +1,149 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Address Book</title>
+        <style>
+            body {
+                background-color: #F8F8FA;
+            }
+        
+            h1 {
+                font-family: verdana;
+                text-align: center;
+                color: #006666;
+            }
+        </style>
+        <script type="text/javascript">
+            var i=0;
+            function AddressRegister(Name,Type,Address,Email,Mobile,Location)
+            {
+                this.Name = Name;
+                this.Type = Type;
+            	this.Address = Address;
+            	this.Email = Email;
+            	this.Mobile = Mobile;
+            	this.Location = Location;
+            }
+            var flag = 0;
+            var tabledata,button;
+            var dataArray = new Array();
+			
+            function Add()
+            {
+                var Name=document.getElementById("name").value;
+                var Types=document.getElementsByName("type");
+                for(i = 0; i < Types.length; i++) { 
+                    if(Types[i].checked) 
+                    var Type = Types[i].value; 
+                }
+                var Address=document.getElementById("address").value; 
+                var Email=document.getElementById("email").value;
+                var Mobile=document.getElementById("mobile").value;
+                var Location=document.getElementById("location").value;
+                
+                var data = new AddressRegister(Name,Type,Address,Email,Mobile,Location);
+                dataArray.push(data);
+            	displayAddress();
+            }
+            function displayAddress()
+            {
+            	if(flag==0)
+				{
+					tabledata = "<table style='position: fixed; background-color:lightgrey; border: 1px solid black; border-collapse: collapse;  margin-top: 25px;' border = '1'> <tr><th>Name</th><th>Type</th><th>Address</th><th>Email</th><th>Mobile</th><th>Location</th></tr>";
+				}
+				for(i=0;i<dataArray.length;i++)
+				{
+					var tempname=dataArray[i].Name;
+					var temptype=dataArray[i].Type;
+					var tempaddress=dataArray[i].Address;
+					var tempemail=dataArray[i].Email;
+					var tempmobile=dataArray[i].Mobile;
+					var templocation=dataArray[i].Location;
+					//Please fill the required code to store the values in tabledata.
+					tabledata += "<tr> <td>"+tempname+"</td> <td>"+temptype+"</td> <td>"+tempaddress+"</td> <td>"+tempemail+"</td> <td>"+tempmobile+"</td> <td>"+templocation+"</td> </tr>";
+				}
+               // console.log(tabledata);
+            	if(flag==0)
+				{   
+                //Please fill the required code to store the table data in result.
+                	document.getElementById("name").value = "";
+                    document.getElementsByName("type").checked = false;
+                    document.getElementById("address").value = "";
+                    document.getElementById("email").value ="";
+                    document.getElementById("mobile").value ="";
+                    document.getElementById("location").value = "";
+            	}
+            	count=0;
+				tabledata += "</table>";
+            	document.getElementById("result").innerHTML = tabledata;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>ADDRESS BOOK</h1>
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name" placeholder="Enter the name" pattern="([^\s][a-zA-Z\s]+)" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="type">Type</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="type1" name="type" value="Temporary" required>
+                        <label for="type1">Temporary</label>
+                        <input type="radio" id="type2" name="type" value="Permanent">
+                        <label for="type2">Permanent</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address</label>
+                    </td>
+                    <td>
+                        <textarea rows="4" cols="30" name="address" id="address" placeholder="Fill Address here" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="text" id="email" name="email" placeholder="abc@gmail.com" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mobile">Mobile Number</label>
+                    </td>
+                    <td>
+                        <input type="text" name="mobile" id = "mobile" pattern="[7-9]{1}[0-9]{9}" placeholder="Enter the Mobile Number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="location">Location</label>
+                    </td>
+                    <td>
+                        <select name="location" id="location" required>
+                            <option value="Coimbatore" id="Coimbatore">Coimbatore</option>
+                            <option value="Chennai" id="Chennai">Chennai</option>
+                            <option value="Bangalore" id="Bangalore">Bangalore</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="button" name="submit" onclick="Add()">Add</button></td>
+                    <td><button type="reset" name="clear">Reset</button></td>
+                </tr>
+            </table>
+            <div id="result" name="result"></div>
+        </center>
+    </body>
+</html>
