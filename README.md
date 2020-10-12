@@ -56,3 +56,16 @@ Solutions for the .NET Early Engagement Program
 2. [ACTB Connection Portal](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Hands-On/JavaScript/01.%20ACTB%20Connection%20Portl.html)
 3. [Consignment Booking - New](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Hands-On/JavaScript/02.%20Consignment%20Booking.html)
 4. [Address Book - New](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Hands-On/JavaScript/03.%20Address%20Book%20-%20New.html)
+
+## C# Programming Fundamentals and Soft Skills
+
+### DataTypes And Variables Functions Methods, Decision Making
+
+#### Hands-On
+
+1. [Find Square and Cube](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/DataTypes%20And%20Variables%20Functions%20Methods%2C%20Decision%20Making/01.%20Find%20Square%20and%20Cube.cs)
+2. [Generate Bill Details](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/DataTypes%20And%20Variables%20Functions%20Methods%2C%20Decision%20Making/02.%20Generate%20Bill%20Details.cs)
+3. [MaxValueOfSignedByte](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/DataTypes%20And%20Variables%20Functions%20Methods%2C%20Decision%20Making/03.%20MaxValueofSignedByte.cs)
+4. [DisplayLongNumber](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/DataTypes%20And%20Variables%20Functions%20Methods%2C%20Decision%20Making/04.%20DisplayLongNumber.cs)
+5. [UserDetails](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/DataTypes%20And%20Variables%20Functions%20Methods%2C%20Decision%20Making/05.%20UserDetails.cs)
+6. [BooleanResult](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/DataTypes%20And%20Variables%20Functions%20Methods%2C%20Decision%20Making/06.%20BooleanResult.cs)
