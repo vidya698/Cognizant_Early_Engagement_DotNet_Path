@@ -79,3 +79,11 @@ Solutions for the .NET Early Engagement Program
 4. [Change a Word](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Looping%20constructs%2C%20Arrays%20%26%20Inheritance%20and%20Polymorphism/04.%20Change%20a%20word.cs)
 5. [Reverse a Sentence](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Looping%20constructs%2C%20Arrays%20%26%20Inheritance%20and%20Polymorphism/05.%20Reverse%20a%20Sentence.cs)
 6. [Load Validator - Hands-On](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Looping%20constructs%2C%20Arrays%20%26%20Inheritance%20and%20Polymorphism/06.%20Load%20Validator%20-%20Hands-On.cs)
+
+### Lambda Expressions, Access Modifiers, Lists, Arraylists vs Lists vs Arrays, Structs, Enums, Math Class, Random Class, Regular Expressions, DateTime, Linq
+
+1. [Flight Status](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/01.%20Flight%20Status.cs)
+2. [Append Text To A File](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/tree/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/02.%20Append%20Text%20to%20a%20file)
+3. [Vehicle Released in Year - Linq](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/tree/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/03.%20Vehicle%20Released%20in%20Year%20-%20Linq)
+4. [Copy File Contents](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/tree/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/04.%20Copy%20File%20Contents)
+5. [Balls Bowled - Hands -On](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/05.%20Balls%20Bowled%20-%20Hands%20-%20On.cs)
