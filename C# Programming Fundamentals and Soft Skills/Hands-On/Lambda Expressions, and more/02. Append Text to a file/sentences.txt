@@ -1,0 +1,2 @@
+C# is elegant and type-safe.
+C# is an object-oriented language.
