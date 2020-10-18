@@ -58,6 +58,11 @@ Solutions for the .NET Early Engagement Program
 3. [Consignment Booking - New](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Hands-On/JavaScript/02.%20Consignment%20Booking.html)
 4. [Address Book - New](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Hands-On/JavaScript/03.%20Address%20Book%20-%20New.html)
 
+#### Code Challenges
+
+#### JavaScript
+1. [DAC BANK - LOAN AUTOMATION](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Code%20Challenges/JavaScript/01.%20DAC%20BANK%20-%20Loan%20Automation.html)
+
 ## C# Programming Fundamentals and Soft Skills
 
 ### DataTypes And Variables Functions Methods, Decision Making
@@ -87,3 +92,5 @@ Solutions for the .NET Early Engagement Program
 3. [Vehicle Released in Year - Linq](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/tree/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/03.%20Vehicle%20Released%20in%20Year%20-%20Linq)
 4. [Copy File Contents](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/tree/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/04.%20Copy%20File%20Contents)
 5. [Balls Bowled - Hands -On](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/05.%20Balls%20Bowled%20-%20Hands%20-%20On.cs)
+6. [AddNewMember - Hands - On](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/06.%20AddNewMember%20-%20Hands-%20On.cs)
+7. [Age Calculation](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/07.%20Age%20Calculation.cs)
