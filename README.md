@@ -38,14 +38,21 @@ Solutions for the .NET Early Engagement Program
 
 #### Code Challenges
 
-1. [RDBMS - Select Statements - Patient Appointment Details based on Reason](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/01.%20RDBMS%20-%20Select%20Statements/1.%20Patient%20Appointment%20Details%20based%20on%20reason.sql)
-2. [RDBMS - DDL & DML - Movie-Modify the datatype set2](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/02.%20RDBMS%20-%20DDL%20%26%20DML/01.%20Movie-Modify%20the%20datatype%20set2.sql)
-3. [RDBMS - DDL & DML - Hostel - Insert Student Records set2](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/02.%20RDBMS%20-%20DDL%20%26%20DML/02.%20Hostel-Insert%20Student%20Records%20set2.sql)
-4. [Function - Scalar & Aggregate - Minimum & Maximum Discount Amount](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/01.%20Minimum%20%26%20Maximum%20Discount%20Amount.sql)
-5. [Function & Subqueries - Patient Appointment details Based On Month](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/04.%20Function%20%26%20Subqueries/01.%20Patient%20Appointment%20details%20Based%20On%20Month.sql)
-6. [RDBMS - Select Statements - Movie Details based on Certification and Duration](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/01.%20RDBMS%20-%20Select%20Statements/2.%20Movie%20Details%20based%20on%20Certification%20and%20Duration.sql)
-7. [Function - Scalar & Aggregate - Student Details in Capital Case](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/02.%20Student%20Details%20in%20Capital%20Case.sql)
-8. [Function - Scalar & Aggregate - Hospital Appointment Booking](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/02.%20Hospital%20Appointment%20Booking.sql)
+##### 1. RDBMS - Select Statements
+* [Patient Appointment Details based on Reason](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/01.%20RDBMS%20-%20Select%20Statements/1.%20Patient%20Appointment%20Details%20based%20on%20reason.sql)
+* [Movie Details based on Certification and Duration](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/01.%20RDBMS%20-%20Select%20Statements/2.%20Movie%20Details%20based%20on%20Certification%20and%20Duration.sql)
+
+##### 2. RDBMS - DDL & DML
+* [Movie-Modify the datatype set2](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/02.%20RDBMS%20-%20DDL%20%26%20DML/01.%20Movie-Modify%20the%20datatype%20set2.sql)
+* [Insert Student Records set2](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/02.%20RDBMS%20-%20DDL%20%26%20DML/02.%20Hostel-Insert%20Student%20Records%20set2.sql)
+
+##### 3. Function - Scalar & Aggregate
+* [Minimum & Maximum Discount Amount](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/01.%20Minimum%20%26%20Maximum%20Discount%20Amount.sql)
+* [Student Details in Capital Case](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/02.%20Student%20Details%20in%20Capital%20Case.sql)
+* [Hospital Appointment Booking](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/02.%20Hospital%20Appointment%20Booking.sql)
+
+#### 4. Function & Subqueries
+* [Patient Appointment details Based On Month](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/04.%20Function%20%26%20Subqueries/01.%20Patient%20Appointment%20details%20Based%20On%20Month.sql)
 
 ## DotNet User Interface Design and Soft Skills
 
@@ -62,6 +69,7 @@ Solutions for the .NET Early Engagement Program
 
 #### JavaScript
 1. [DAC BANK - LOAN AUTOMATION](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Code%20Challenges/JavaScript/01.%20DAC%20BANK%20-%20Loan%20Automation.html)
+2. [E-Book Grand Sale](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Code%20Challenges/JavaScript/02.%20E-Book%20Grand%20Sale.html)
 
 ## C# Programming Fundamentals and Soft Skills
 
@@ -94,3 +102,8 @@ Solutions for the .NET Early Engagement Program
 5. [Balls Bowled - Hands -On](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/05.%20Balls%20Bowled%20-%20Hands%20-%20On.cs)
 6. [AddNewMember - Hands - On](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/06.%20AddNewMember%20-%20Hands-%20On.cs)
 7. [Age Calculation](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Hands-On/Lambda%20Expressions%2C%20and%20more/07.%20Age%20Calculation.cs)
+
+#### Code Challenges
+
+##### 5. C# - Collection, Lambda, Struct and Enum
+* [Filter Employee List](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Code%20Challenges/Code%20Challenge%205%20-%20C%23%20-%20Collection%2C%20Lambda%2C%20Struct%20and%20Enum/01.%20Filter%20Employee%20List/Program.cs)
