@@ -41,6 +41,7 @@ Solutions for the .NET Early Engagement Program
 ##### 1. RDBMS - Select Statements
 * [Patient Appointment Details based on Reason](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/01.%20RDBMS%20-%20Select%20Statements/1.%20Patient%20Appointment%20Details%20based%20on%20reason.sql)
 * [Movie Details based on Certification and Duration](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/01.%20RDBMS%20-%20Select%20Statements/2.%20Movie%20Details%20based%20on%20Certification%20and%20Duration.sql)
+* [Student-Room Details](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/01.%20RDBMS%20-%20Select%20Statements/3.%20Student-Room%20Details.sql)
 
 ##### 2. RDBMS - DDL & DML
 * [Movie-Modify the datatype set2](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/02.%20RDBMS%20-%20DDL%20%26%20DML/01.%20Movie-Modify%20the%20datatype%20set2.sql)
@@ -50,6 +51,7 @@ Solutions for the .NET Early Engagement Program
 * [Minimum & Maximum Discount Amount](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/01.%20Minimum%20%26%20Maximum%20Discount%20Amount.sql)
 * [Student Details in Capital Case](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/02.%20Student%20Details%20in%20Capital%20Case.sql)
 * [Hospital Appointment Booking](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/02.%20Hospital%20Appointment%20Booking.sql)
+* [Number of Appointments](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/03.%20Function%20-%20Scalar%20%26%20Aggregate/03.%20Number%20of%20Appointments.sql)
 
 #### 4. Function & Subqueries
 * [Patient Appointment details Based On Month](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Database%20Management/Code%20Challenges/04.%20Function%20%26%20Subqueries/01.%20Patient%20Appointment%20details%20Based%20On%20Month.sql)
@@ -66,6 +68,10 @@ Solutions for the .NET Early Engagement Program
 4. [Address Book - New](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Hands-On/JavaScript/03.%20Address%20Book%20-%20New.html)
 
 #### Code Challenges
+
+#### HTML5 and CSS3
+1. [Book A Show - Online Ticket Booking](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Code%20Challenges/HTML5%20and%20CSS3/01.%20Book%20A%20Show%20-%20Online%20Ticket%20Booking.html)
+2. [Palindrome Check](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Code%20Challenges/HTML5%20and%20CSS3/02.%20Palindrome%20Check.html)
 
 #### JavaScript
 1. [DAC BANK - LOAN AUTOMATION](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/DotNet%20User%20Interface%20Design%20and%20Soft%20Skills/Code%20Challenges/JavaScript/01.%20DAC%20BANK%20-%20Loan%20Automation.html)
