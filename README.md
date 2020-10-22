@@ -1,6 +1,23 @@
 # Cognizant_Early_Engagement_DotNet_Path
 Solutions for the .NET Early Engagement Program
 
+### Un-Sorted Programs
+Solution of the Programs from all the topics but unsorted. Will sort them later.....
+
+1. [Premium Calculations](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/tree/master/Un-Sorted/Premium%20Calculation)
+2. [Bank Account Details](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Bank%20Account%20Details.jpg)
+3. [Double Discount](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Double%20Discount.cs)
+4. [Double Discount 2](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Double%20Discount%202.cs)
+5. [Draw Pattern](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Draw%20Pattern.cs)
+6. [Dream Theme Park](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Dream%20Theme%20Park.html)
+7. [Electricity Bill](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Electricity%20Bill.cs)
+8. [Expense Management System](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Expense%20Management%20System%20solution.zip)
+9. [Expense Management System 2](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Expense%20Management%20System.zip)
+10. [ICT and Mock ICT C#](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/ICT%20and%20Mock%20ICT-main.zip)
+11. [Premium Calculation](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Premium%20Calculation.cs)
+12. [Sort By Price](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/Un-Sorted/Sort%20By%20Price.cs)
+13. [Unknown Programs](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/tree/master/Un-Sorted/Unknown)
+
 ## DotNet Fundamentals and Soft Skills
 
 ### Database Management
@@ -113,3 +130,6 @@ Solutions for the .NET Early Engagement Program
 
 ##### 5. C# - Collection, Lambda, Struct and Enum
 * [Filter Employee List](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Code%20Challenges/Code%20Challenge%205%20-%20C%23%20-%20Collection%2C%20Lambda%2C%20Struct%20and%20Enum/01.%20Filter%20Employee%20List/Program.cs)
+
+##### 6. C# - Code Challenge 6 - Linq
+* [Salary Greater Than Average](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Code%20Challenges/Code%20Challenge%206%20-%20C%23%20-%20Linq/Salary%20Greater%20than%20Average%20-%20Linq/Program.cs)
