@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+
+body{
+    background-color:#FFAACC;;
+}
+
+h1
+{
+color:#770080;
+font-family:Courier New;
+font-style :italic;
+text-align:center;
+}
+
+form
+{
+margin :0 auto;
+width:300px;
+}
+
+#result
+{
+color:#770080;
+font-weight:bold;
+}
+</style>
+<script>
+            function costcalculation(){
+                
+                var discount=0;
+                var amount=0;
+                var totalcost=0;
+                var name=document.getElementById("customerName").value;
+                var adult=document.getElementById("adults").value;
+                var children=document.getElementById("children").value;
+               
+                amount=(adult*1500)+(children*1200);
+                            
+                var type=document.getElementById("bookingType").value;
+                if(type=="Normal")
+                discount=0;
+                else if(type=="School")
+                discount=(0.50*amount);
+                else if(type=="Corporate")
+                discount=(0.25*amount);
+               
+                
+                totalcost=(amount-discount);
+                document.getElementById("result").innerHTML=("Thank you "+name+". Total cost to be paid is "+totalcost);
+                
+            }
+        </script>
+<title>DREAM Theme Park</title>
+</head>
+<body >
+
+
+<h1>Book Your Tickets</h1>
+<form>
+<table>
+
+<tr>
+<td>Customer Name</td>
+<td><input type="text" name="customerName" id="customerName" required="required"  pattern="[a-zA-Z\s]+" placeholder ="Enter your name" /> </td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><textarea name="address" required="required" id="Address" required="required" rows="5" cols="20"  ></textarea></td>
+</tr>
+
+<tr>
+<td>Email ID</td>
+<td><input  type="email" name="customerEmail"  id="customerEmail" required="required"> </td>
+</tr>
+
+<tr>
+<td>Mobile Number</td>
+<td><input type="tel" name="customerMobileNumber" id="customerMobileNumber"    required="required"> </td>
+</tr>
+
+<tr>
+<td>Park Location</td>
+<td><input type="radio"  name="location" id="location" value="Delhi" required="required">Delhi
+<input type="radio"  name="location" id="location" value="Mumbai" required="required">Mumbai
+</td>
+</tr>
+
+<tr>
+<td>Date of Visit</td>
+<td><input type="date" name="dateOfVisit" id="dateOfVisit" required="required"> </td>
+</tr>
+
+<tr>
+<td>Booking Type</td>
+<td><input name="bookingType" id="bookingType" list="bookType" required="required">
+  <datalist   id="bookType">
+    <option value="Normal">
+  <option value="School">
+  <option value="Corporate">
+  </datalist></td>
+</tr>
+
+<tr>
+<td>Adult</td>
+<td><input type="number" name="adults" id="adults"  max="500" min="0"  required="required"> </td>
+</tr>
+
+<tr>
+<td>Children</td>
+<td><input type="number"  name="children" id="children" required="required"> </td>
+</tr>
+
+
+ <tr><td>
+                         <input type="button" value="Book Now" name="submit" onclick="costcalculation()">
+                        </td>
+                       
+                    <td><button type="reset" id="clear" name="clear">Reset</button></td></tr>
+
+
+
+</table>
+</form>
+<div id="result" align="center"></div>
+
+
+</body>
+</html>
