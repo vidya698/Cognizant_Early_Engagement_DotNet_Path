@@ -128,8 +128,13 @@ Solution of the Programs from all the topics but unsorted. Will sort them later.
 
 #### Code Challenges
 
+##### 2. C# - Function
+* [Pay Calculation](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Code%20Challenges/Code%20Challenge%202%20-%20C%23%20-%20Function/Pay%20Calculation.cs)
+
+
 ##### 5. C# - Collection, Lambda, Struct and Enum
 * [Filter Employee List](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Code%20Challenges/Code%20Challenge%205%20-%20C%23%20-%20Collection%2C%20Lambda%2C%20Struct%20and%20Enum/01.%20Filter%20Employee%20List/Program.cs)
 
 ##### 6. C# - Code Challenge 6 - Linq
 * [Salary Greater Than Average](https://github.com/GodStarLord/Cognizant_Early_Engagement_DotNet_Path/blob/master/C%23%20Programming%20Fundamentals%20and%20Soft%20Skills/Code%20Challenges/Code%20Challenge%206%20-%20C%23%20-%20Linq/Salary%20Greater%20than%20Average%20-%20Linq/Program.cs)
+
