@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<title>BookForm</title>
+    </head>
+    <body>
+        <form autocomplete="on" >
+		<fieldset>
+			<legend>Customer Info </legend>
+       			<label for="Name">Name:</label>
+        		<input type="text" id="cusname" name="cusname" autofocus="on" placeholder="Enter your name" required="required">
+        		<br><br><label for="Telephone">Telephone:</label>
+        		<input type="tel" id="telephone" name="telephone" placeholder="Pattern: 234-567-8910" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required">
+        		<br><br><label for="Email address">Email address:</label>
+        		<input type="email" name="mail" placeholder="Enter your email address" required="required">
+		</fieldset>
+	</form>
+	<form>
+		<fieldset>
+			<legend>Books</legend>
+  			<input type="text" name="book" list="books" autocomplete="on" required="required">
+      			<datalist id="books" name="books">
+            			<option>HTML5 - Bruce Lawson and Remy Sharp</option>
+            			<option>HTML5 - Up and Running - Mark Pilgrim</option>
+            			<option>Head First HTML5 Programming - Eric Freeman</option>
+            			<option>Mastering HTML, CSS and JavaScript - Laura Lemay</option>
+        		</datalist>
+			<label for="Quantity">Quantity(Maximum 5):</label>
+        		<input type="number" name="quantity" min="1" max="5">
+		</fieldset>
+	</form>
+        <input type="submit" name="submit" onclick="test()">
+	<script>
+          function test()
+          {
+              alert("You have successfully submitted the Book Form");
+              return false;
+          }
+      </script> 
+    </body>
+</html>
