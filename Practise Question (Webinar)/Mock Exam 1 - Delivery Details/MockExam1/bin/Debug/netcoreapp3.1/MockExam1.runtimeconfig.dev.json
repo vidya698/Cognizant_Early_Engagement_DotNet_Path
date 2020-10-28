@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Ujwal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Ujwal\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\bin\Debug\netcoreapp3.1\MockExam1.exe
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\bin\Debug\netcoreapp3.1\MockExam1.deps.json
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\bin\Debug\netcoreapp3.1\MockExam1.runtimeconfig.json
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\bin\Debug\netcoreapp3.1\MockExam1.runtimeconfig.dev.json
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\bin\Debug\netcoreapp3.1\MockExam1.dll
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\bin\Debug\netcoreapp3.1\MockExam1.pdb
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\obj\Debug\netcoreapp3.1\MockExam1.csprojAssemblyReference.cache
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\obj\Debug\netcoreapp3.1\MockExam1.AssemblyInfoInputs.cache
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\obj\Debug\netcoreapp3.1\MockExam1.AssemblyInfo.cs
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\obj\Debug\netcoreapp3.1\MockExam1.dll
+C:\Users\Ujwal\source\repos\MockExam1\MockExam1\obj\Debug\netcoreapp3.1\MockExam1.pdb
