@@ -1,0 +1,104 @@
+ 1 <!-- This is a partial code. Implement the neccessary codes -->
+    2 <!DOCTYPE html>
+    3 <html>
+    4     <head>
+    5         <style>
+    6             h1{
+    7                 font-style:italic;
+    8                 font-weight:bold;
+    9                 text-align:center;
+   10                 color:#b03060;
+   11             }
+   12             table{
+   13                 float:left;
+   14                 margin-left: 35%;
+   15                 border-style: solid 5px;
+   16                 border-spacing: 10px;
+   17                 border-collapse: collapse;
+   18                 border-width:30%;
+   19             }
+   20             tr,td{
+   21                 border-style: solid 5px;
+   22                 border-width: 30%;
+   23                 border-collapse: collapse;
+   24                 padding: 10px;
+   25                 border: 5px solid black;
+   26             }
+   27             #submit{
+   28                
+   29                 margin-left:45%;
+   30             }
+   31             div{
+   32                 text-align:center;
+   33                 font-weight:bold;
+   34             }
+   35             #result{
+   36                 font-style:italic;
+   37                 color:#FF0000;
+   38                 font-size:40px;
+   39                 text-align: center;
+   40                 font-weight: bold;
+   41             }
+   42             #discount{
+   43                 font-size:25px;
+   44                 text-align: center;
+   45                 font-weight: bold;
+   46             }
+   47         </style>
+   48     </head>
+   49     <body style="background-color:#99FFFF;">
+   50         <h1>DISCOUNT PRICE</h1>
+   51         <form>
+   52             <table>
+   53                 <tr>
+   54                     <td>Product Name</td>
+   55                     <td><input type="text" name="name" pattern="[a-zA-Z\s]+" required=""></td>
+   56                 </tr>
+   57                 <tr>
+   58                     <td>Product Price</td>
+   59                     <td><input type="number" id="price" name="price" min="15001" required></td>
+   60                 </tr>
+   61                 <tr>
+   62                     <td>Season</td>
+   63                     <td><select name="season" id="season">
+   64                         <option value="summer">SUMMER SALE</option>
+   65                         <option value="newyear">NEW YEAR SALE</option>
+   66                         <option value="clearance">CLEARANCE SALE</option>
+   67                     </select></td>
+   68                 </tr>
+   69             </table><br>
+   70             <input type="button" name="submit" value="GET DISCOUNT PRICE" id="submit" onclick="discountamount()">
+   71         </form>
+   72         <div id="discount"></div>
+   73         <div id="result"></div>
+   74         <script>
+   75         function discountamount()
+   76         {
+   77             var p=document.getElementById("price").value;
+   78             var newamount;
+   79             var d;
+   80             var s=document.getElementById("season").value;
+   81             if(s=='summer')
+   82             {   d=10;
+   83                 newamount=p - (p * (0.1));
+   84             }
+   85              else  if(s=='newyear')
+   86                 { 
+   87                     d=5;
+   88                     newamount=p - (p * (0.05));
+   89                 }
+   90                 else
+   91                 {
+   92                     d=15;
+   93                     newamount=p - (p * (0.15));
+   94                 }
+   95                 
+   96             document.getElementById("discount").innerHTML="The discount is "+d+"%";
+   97             document.getElementById("result").innerHTML="The discount price : Rs "+newamount;
+   98             
+   99             
+  100         }
+  101             
+  102         </script>
+  103     </body>
+  104 </html>
