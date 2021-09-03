@@ -22,10 +22,10 @@ namespace ProgFundamentals2  //DO NOT change the namespace name
             no_pizzas = Convert.ToInt32(Console.ReadLine());
             
             Console.Write("Enter the number of puffs bought : ");
-            puffs = Convert.ToInt32(Console.ReadLine());
+            no_puffs = Convert.ToInt32(Console.ReadLine());
             
             Console.Write("Enter the number of pepsi bought : ");
-            pepsi = Convert.ToInt32(Console.ReadLine());
+            no_pepsi = Convert.ToInt32(Console.ReadLine());
             
             cost_pizza = costPerPizza * no_pizzas;
 			cost_puffs = costPerPuff * no_puffs;
