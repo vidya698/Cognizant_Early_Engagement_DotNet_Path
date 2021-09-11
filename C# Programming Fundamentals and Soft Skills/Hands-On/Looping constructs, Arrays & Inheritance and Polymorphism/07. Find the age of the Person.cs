@@ -1,44 +1,40 @@
 using System;
+using System.IO;
 
 public class Person
 {
-    private String firstName;
-    private String lastName;
+    private string firstName;
+    private string lastName;
     private DateTime dob;
-    
-    public String FirstName
-    {
-        get { return firstName; }
-        set { firstName = value; }
+
+
+public string FirstName{
+    get{return firstName;}
+    set {firstName = value;}
+}
+
+public string LastName
+{
+ get {return lastName;}
+ set {lastName= value;}
+}
+public DateTime Dob{
+    get{return dob;}
+    set{dob= value;}
+}
+
+public string Adult {
+    get{
+        if(GetAge(dob)< 18)
+        return "child";
+        else 
+        return "Adult";
     }
-    
-    public String LastName
+}
+ public void DisplayDetails()
     {
-        get { return lastName; }
-        set { lastName = value; }
-    }
-    
-    public DateTime Dob
-    {
-        get { return dob; }
-        set { dob = value; }
-    }
-    
-    public string Adult
-    {
-        get
-        {
-            if(GetAge(dob) < 18)
-                return "Child";
-            else
-                return "Adult";
-        }
-    }
-    
-    public void DisplayDetails()
-    {
-       Console.WriteLine("First Name: " + firstName);
-       Console.WriteLine("Last Name: " + lastName);
+       Console.WriteLine("First Name: " + FirstName);
+       Console.WriteLine("Last Name: " + LastName);
        Console.WriteLine("Age: " + GetAge(dob));
        Console.WriteLine(Adult);
     }
@@ -54,9 +50,8 @@ public class Person
     }
 }
 
-public class BirthdayProject      //DO NOT change the class name
+public class BirthdayProject 
 {
-    //implement code here
     public static void Main(string[] args)
     {
         Person person = new Person();
@@ -69,6 +64,6 @@ public class BirthdayProject      //DO NOT change the class name
         Console.WriteLine("Enter date of birth in yyyy/mm/dd/ format");
         person.Dob = Convert.ToDateTime(Console.ReadLine());
 
-        person.DisplayDetails();
+        person.DisplayDetails(); 
     }
 }
