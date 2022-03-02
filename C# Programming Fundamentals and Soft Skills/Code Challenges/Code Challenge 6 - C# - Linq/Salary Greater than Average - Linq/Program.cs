@@ -12,13 +12,13 @@ namespace EmployeeSalary		//DO NOT CHANGE the namespace name
 		/** DO NOT CHANGE this 'List' declaration with initialized values **/
 		public static List<Employee> EmployeeList = new List<Employee>()
 		{
-			new Employee("EM101', "Tom", "Lead", 60000),
-			new Employee("EM102', "Sally", "Manager", 55000),
-			new Employee("EM103', "Merkel", "Lead", 70000),
-			new Employee("EM104', "Stephen", "Lead", 75000),
-			new Employee("EM105', "Sam", "Manager", 65000),
-			new Employee("EM106', "Jose", "Lead", 50000),
-			new Employee("EM107', "David", "Manager", 80000)
+			new Employee("EM101", "Tom", "Lead", 60000),
+			new Employee("EM102", "Sally", "Manager", 55000),
+			new Employee("EM103", "Merkel", "Lead", 70000),
+			new Employee("EM104", "Stephen", "Lead", 75000),
+			new Employee("EM105", "Sam", "Manager", 65000),
+			new Employee("EM106", "Jose", "Lead", 50000),
+			new Employee("EM107", "David", "Manager", 80000)
 		}
 		
 		static void Main(string[] args)		//DO NOT CHANGE the 'Main' signature
